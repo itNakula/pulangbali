@@ -55,14 +55,18 @@
 				</div>
 				<div class="col-sm-3 mb-3">
 					<h6 class="fw-light">Stay</h6>
-					<p><a href="#">2 Bed Rooms</a><br>
-					<a href="#">3 Bed Rooms</a><br>
-					<a href="#">4 Bed Rooms</a></p>
+					<p><a href="/stay/#the-villa">The Villa</a><br>
+					<a href="/stay/#quick-villa">Quick Facts</a><br>
+					<a href="/stay/#rates">Rates &amp; Availability</a><br>
+					<a href="/stay/#reviews">Reviews</a></p>
 				</div>
 				<div class="col-sm-3 mb-3">
-					<h6 class="fw-light">Experience</h6>
-					<p><a href="/room/bungalow-one-bedroom-garden/">Bungalow One Bedroom Garden</a><br>
-					<a href="/room/bungalow-three-bedroom-garden/">Bungalow Three Bedroom Garden</a></p>
+					<h6 class="fw-light">Experiences</h6>
+					<p><a href="/experiences/#butler">Butler &amp; Concierge</a><br>
+					<a href="/experiences/#dining">In-Villa Dining</a><br>
+					<a href="/experiences/#wellness">Healthy and Wellness</a><br>
+					<a href="/experiences/#activities">Activities</a><br>
+					<a href="/experiences/#destination">Destination Guide &amp; Highlights</a></p>
 				</div>
 				<div class="col-sm-3 mb-3">
 					<?php the_field('footer_info_2', 'option'); ?>

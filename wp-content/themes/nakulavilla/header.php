@@ -94,14 +94,17 @@
 	<header class="submenu-stay link-stay">
 		<ul class="nav justify-content-center">
 			<li class="nav-item">
-				<a class="nav-link" href="#">2 Bed Rooms</a>
-			</li>
-			<li class="nav-item">
-				<a class="nav-link" href="#">3 Bed Rooms</a>
-			</li>
-			<li class="nav-item">
-				<a class="nav-link" href="#">4 Bed Rooms</a>
-			</li>
+              <a class="nav-link" href="/stay/#the-villa">The Villa</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/stay/#quick-facts">Quick Facts</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/stay/#rates">Rates & Availability</a>
+          </li> 
+          <li class="nav-item">
+              <a class="nav-link" href="/stay/#reviews">Reviews</a>
+          </li>   
 		</ul>
 	</header>
 </div>
