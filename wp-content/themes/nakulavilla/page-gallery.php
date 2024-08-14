@@ -30,12 +30,10 @@ get_header();
 					</div>
 		
 					<ul class="nav tabpill justify-content-center mb-5 d-none d-lg-flex">
-					    
                         <?php if( have_rows('category') ): $i = 0; ?>
 						    <?php while ( have_rows('category') ): the_row(); ?>
 						    <li class="nav-item">
-<a class="nav-link px-4 <?php if ($i==0) {echo "active";} ?>" id="<?php the_sub_field('id'); ?>" onclick="call(this.id)"><?php the_sub_field('title_category'); ?></a>
-						        
+								<a class="nav-link px-4 <?php if ($i==0) {echo "active";} ?>" id="<?php the_sub_field('id'); ?>" onclick="call(this.id)"><?php the_sub_field('title_category'); ?></a>
 						    </li>
 						<?php $i++; endwhile;?>
 						<?php endif; ?>

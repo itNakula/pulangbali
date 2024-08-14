@@ -1,6 +1,15 @@
+<<<<<<< HEAD
 /wp-content/uploads
 .htaccess
 wp-config.php
 index.html
 .gitignore
 index.php
+=======
+/wp-content/uploads
+.htaccess
+wp-config.php
+index.html
+index.php
+.gitignore
+>>>>>>> 473736407c069d9d8372a1d9c9199b4719326c1f
