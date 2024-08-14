@@ -10,10 +10,10 @@ get_header();
             <div class="row">
                 <div class="col-12">
                     <div class="jumbotron d-flex flex-column px-4 px-md-5 py-8 justify-content-end vh-100 bg-gradient-left text-white">
-                        <div class="row ">
-                            <div class="col-md-5">
+                        <div class="row">
+                            <div class="col-md-5" data-aos="fade-up">
                                 <?php while ( have_posts() ) : the_post(); ?>
-                                <h1 data-aos="fade-up"><?php the_title(); ?></h1>
+                                <h1><?php the_title(); ?></h1>
                                     <?php the_excerpt(); ?>
                                 <?php endwhile; ?>                                
                             </div>
@@ -26,16 +26,18 @@ get_header();
 </section><!-- bg Home -->
 
 <?php while ( have_posts() ) : the_post(); ?>
+<div data-aos="fade-up">
     <?php the_content(); ?>
+</div>
 <?php endwhile; ?>
-<div id="444">
+
 <section class="mt-100 mb-100">
     <div class="container">
         <div class="row">
-            <div class="col-md-12">
+            <div class="col-md-12" data-aos="fade-up">
                 <h2 class="text-blue">Destination Guides &amp; Highlight</h2>
             </div>
-            <div class="col-md-12 mt-40">
+            <div class="col-md-12 mt-40" data-aos="fade-up">
                 <div class="carousel" data-flickity='{ "contain": true, "groupCells": true, "pageDots": false, "imagesLoaded": true }'>
                     <?php echo_post_destination(); ?>
                 </div>
@@ -43,7 +45,6 @@ get_header();
         </div>
     </div>
 </section>
-</div>
 <?php echo_directions(); ?>
 <?php
 get_footer();

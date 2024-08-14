@@ -2,4 +2,5 @@
 .htaccess
 wp-config.php
 index.html
+index.php
 .gitignore
