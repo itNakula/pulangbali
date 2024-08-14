@@ -37,7 +37,7 @@ get_header();
         </div>
     </section><!-- bg Home -->
 
-    <div class="container mt-60"><hr class="style-eight"/></div>
+    <div class="container mt-60"></div>
 
     <section class="mt-60">
         <div class="container-fluid p-0 overflow-hidden">
