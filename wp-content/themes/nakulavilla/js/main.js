@@ -39,22 +39,22 @@ $(document).ready(function() {
   $(window).on("scroll", function() {
   console.log($(this).scrollTop())
   if($(this).scrollTop() >= 20){
-    // set to new image
-    // $(".navbar-brand img").attr("src","https://puritempodoeloesanur.com/wp-content/uploads/2023/08/logo-puri-tempo-doeloe-color.png");
-    // $(".page-id-129 .navbar-brand img").attr("src","https://puritempodoeloesanur.com/wp-content/uploads/2023/08/logo-puri-tempo-doeloe-color.png");
-    // $(".page-id-972 .navbar-brand img").attr("src","https://puritempodoeloesanur.com/wp-content/uploads/2023/08/logo-puri-tempo-doeloe-color.png");
+    set to new image
+    $(".navbar-brand img").attr("src","https://pulangbali.com/wp-content/uploads/2024/04/Main-Logo-Villa-Pulang.png");
+    $(".page-id-129 .navbar-brand img").attr("src","https://pulangbali.com/wp-content/uploads/2024/04/Main-Logo-Villa-Pulang.png");
+    $(".page-id-972 .navbar-brand img").attr("src","https://pulangbali.com/wp-content/uploads/2024/04/Main-Logo-Villa-Pulang.png");
   } else {
     //back to default
-    // $(".navbar-brand img").attr("src","https://puritempodoeloesanur.com/wp-content/uploads/2023/08/logo-putih-tempodoloe.png");
-    // $(".page-id-129 .navbar-brand img").attr("src","https://puritempodoeloesanur.com/wp-content/uploads/2023/08/logo-puri-tempo-doeloe-color.png");
-    // $(".page-id-972 .navbar-brand img").attr("src","https://puritempodoeloesanur.com/wp-content/uploads/2023/08/logo-puri-tempo-doeloe-color.png");
+    $(".navbar-brand img").attr("src","https://pulangbali.com/wp-content/uploads/2024/08/Main-Logo-Villa-Pulang-white.png");
+    $(".page-id-129 .navbar-brand img").attr("src","https://pulangbali.com/wp-content/uploads/2024/04/Main-Logo-Villa-Pulang.png");
+    $(".page-id-972 .navbar-brand img").attr("src","https://pulangbali.com/wp-content/uploads/2024/04/Main-Logo-Villa-Pulang.png");
   }
   })
 })
 
 $(document).ready(function() {
-  // $('.page-id-129 .navbar-brand img').attr('src', 'https://puritempodoeloesanur.com/wp-content/uploads/2023/08/logo-puri-tempo-doeloe-color.png');
-  // $('.page-id-972 .navbar-brand img').attr('src', 'https://puritempodoeloesanur.com/wp-content/uploads/2023/08/logo-puri-tempo-doeloe-color.png');
+  $('.page-id-129 .navbar-brand img').attr('src', 'https://pulangbali.com/wp-content/uploads/2024/04/Main-Logo-Villa-Pulang.png');
+  $('.page-id-972 .navbar-brand img').attr('src', 'https://pulangbali.com/wp-content/uploads/2024/04/Main-Logo-Villa-Pulang.png');
 });
 
 function call(id) {
