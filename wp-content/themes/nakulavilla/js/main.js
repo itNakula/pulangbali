@@ -41,21 +41,21 @@ $(document).ready(function() {
   if($(this).scrollTop() >= 20){
     set to new image
     $(".navbar-brand img").attr("src","https://pulangbali.com/wp-content/uploads/2024/04/Main-Logo-Villa-Pulang.png");
-    $(".page-id-129 .navbar-brand img").attr("src","https://pulangbali.com/wp-content/uploads/2024/04/Main-Logo-Villa-Pulang.png");
-    $(".page-id-972 .navbar-brand img").attr("src","https://pulangbali.com/wp-content/uploads/2024/04/Main-Logo-Villa-Pulang.png");
+    $(".page-id-34 .navbar-brand img").attr("src","https://pulangbali.com/wp-content/uploads/2024/04/Main-Logo-Villa-Pulang.png");
+    //$(".page-id-972 .navbar-brand img").attr("src","https://pulangbali.com/wp-content/uploads/2024/04/Main-Logo-Villa-Pulang.png");
   } else {
     //back to default
     $(".navbar-brand img").attr("src","https://pulangbali.com/wp-content/uploads/2024/08/Main-Logo-Villa-Pulang-white.png");
-    $(".page-id-129 .navbar-brand img").attr("src","https://pulangbali.com/wp-content/uploads/2024/04/Main-Logo-Villa-Pulang.png");
-    $(".page-id-972 .navbar-brand img").attr("src","https://pulangbali.com/wp-content/uploads/2024/04/Main-Logo-Villa-Pulang.png");
+    $(".page-id-34 .navbar-brand img").attr("src","https://pulangbali.com/wp-content/uploads/2024/04/Main-Logo-Villa-Pulang.png");
+    //$(".page-id-972 .navbar-brand img").attr("src","https://pulangbali.com/wp-content/uploads/2024/04/Main-Logo-Villa-Pulang.png");
   }
   })
 })
 
-$(document).ready(function() {
-  $('.page-id-129 .navbar-brand img').attr('src', 'https://pulangbali.com/wp-content/uploads/2024/04/Main-Logo-Villa-Pulang.png');
-  $('.page-id-972 .navbar-brand img').attr('src', 'https://pulangbali.com/wp-content/uploads/2024/04/Main-Logo-Villa-Pulang.png');
-});
+// $(document).ready(function() {
+//   $('.page-id-129 .navbar-brand img').attr('src', 'https://pulangbali.com/wp-content/uploads/2024/04/Main-Logo-Villa-Pulang.png');
+//   $('.page-id-972 .navbar-brand img').attr('src', 'https://pulangbali.com/wp-content/uploads/2024/04/Main-Logo-Villa-Pulang.png');
+// });
 
 function call(id) {
   const items = Array.from(document.getElementsByClassName("filter"));
