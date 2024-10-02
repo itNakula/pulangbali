@@ -1,5 +1,5 @@
 <?php
-/*Template Name: Page Stay FastBooking*/
+/*Template Name: Page Stay SM Booking*/
 
 get_header();
 ?>
@@ -46,7 +46,7 @@ get_header();
     </div>
   </section>
   
-  <section class="bg-celebrate pt-0 ps-0 pt-md-5 ps-md-5 mt-40">
+  <!-- <section class="bg-celebrate pt-0 ps-0 pt-md-5 ps-md-5 mt-40">
     <div class="container-fluid bg-celebrate-content pt-5">
       <div class="row">
         <div class="col-12 col-md-3 p-4 my-auto text-left text-md-center">
@@ -59,7 +59,7 @@ get_header();
         </div>
       </div>
     </div>
-  </section>
+  </section> -->
 
   <section class="mt-60" id="quick-facts">
     <div class="container">
@@ -76,7 +76,10 @@ get_header();
         <h2 class="text-blue text-center mb-40">Rates &amp; Availability</h2>
         <div class="col-md-12">
           <h3 class="subtitle text-blue">Availability</h3>
-          <?php the_field('availability'); ?>
+          <!-- <?php //the_field('availability'); ?> -->
+          <div class="ibe" data-region="apac" data-channelcode="PulangVillasPererenanbyNakulaDIRECT" data-widget="property_grid" style="height: 350px"></div>
+        <a class="btn btn-outline-red rounded-0 d-none d-lg-inline-block w-25 mx-auto m-5" href="https://app-apac.thebookingbutton.com/properties/PulangVillasPererenanbyNakulaDIRECT">Book Now</a>
+        
         </div>
         <!--<div class="col-md-6">
           <h3 class="subtitle text-blue">Rates</h3>          

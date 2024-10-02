@@ -46,7 +46,7 @@
 			<div class="row text-center text-md-start">
 				<div class="col-sm-3 mb-3">
 					<?php if( get_field('logo_1', 'option') ): ?>
-						<img src="<?php the_field('logo_1', 'option'); ?>" alt="logo nakula villas" height="56">
+						<img src="<?php the_field('logo_1', 'option'); ?>" alt="logo nakula villas" height="44">
 					<?php else: ?>
 						<h4>Villa Pulang Bali</h4>
 					<?php endif; ?>
@@ -75,7 +75,7 @@
 			<div class="row text-center text-md-start">
 				
 				<div class="col-sm-12 mb-3 text-center">
-					<p>© 2023 – <a href="https://nakula.com/" target="_blank">Nakula</a>. All rights reserved.</p>
+					<p>© 2024 – <a href="https://nakula.com/" target="_blank">Nakula</a>. All rights reserved.</p>
 				</div>
 			</div>
 		</div>

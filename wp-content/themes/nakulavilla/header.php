@@ -60,7 +60,7 @@
 				<!-- Navbar brand -->
 				<a class="navbar-brand d-none d-lg-flex mx-lg-auto mx-lg-auto col-lg-2 justify-content-lg-center" href="<?php echo esc_url( home_url( '/' ) ); ?>">
 					<?php if ( get_field('logo_1', 'option') ): ?>
-						<img src="<?php the_field('logo_1', 'option'); ?>" alt="logo nakula villas" height="75">
+						<img src="<?php the_field('logo_1', 'option'); ?>" alt="logo nakula villas" height="50">
 					<?php else: ?>
 						<h1>Villa Pulang Bali</h1>
 					<?php endif; ?>
