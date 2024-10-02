@@ -20,7 +20,7 @@
 					<p class="mb-0">Subscribe to our newsletter to stay up to date with our latest news and promos.</p>
 				</div>
 				<div class="col-12 col-md-4 mb-3">
-					<form action="https://nakula.us14.list-manage.com/subscribe/post?u=8b061b9f1fbaed47da7014a31&amp;id=75c01ddfdd&amp;f_id=005182e0f0" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate d-flex" target="_self">
+					<form action="https://nakula.us14.list-manage.com/subscribe/post?u=8b061b9f1fbaed47da7014a31&amp;id=8c48551105&amp;f_id=001db9e5f0" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate d-flex" target="_self">
 						<input type="email" placeholder="Your Email" value="" name="EMAIL" class="form-control form-control-light bg-transparent rounded-0 me-0 required email" id="mce-EMAIL" required>
 						<div hidden="true">
 							<input type="hidden" name="tags" value="12498918">
@@ -30,7 +30,7 @@
 							<div class="response" id="mce-success-response" style="display:none"></div>
 						</div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
 						<div style="position: absolute; left: -5000px;" aria-hidden="true">
-							<input type="text" name="b_8b061b9f1fbaed47da7014a31_75c01ddfdd" tabindex="-1" value="">
+							<input type="text" name="b_8b061b9f1fbaed47da7014a31_8c48551105" tabindex="-1" value="">
 						</div>
 						<div class="clear">
 							<input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button btn btn-light rounded-0">
@@ -56,7 +56,7 @@
 				<div class="col-sm-3 mb-3">
 					<h6 class="fw-light">Stay</h6>
 					<p><a href="/stay/#the-villa">The Villa</a><br>
-					<a href="/stay/#quick-villa">Quick Facts</a><br>
+					<a href="/stay/#quick-facts">Quick Facts</a><br>
 					<a href="/stay/#rates">Rates &amp; Availability</a><br>
 					<a href="/stay/#reviews">Reviews</a></p>
 				</div>
