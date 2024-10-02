@@ -70,10 +70,10 @@ $(document).ready(function () {
   });
 });
 
-// $(document).ready(function() {
-//   $('.page-id-129 .navbar-brand img').attr('src', 'https://pulangbali.com/wp-content/uploads/2024/04/Main-Logo-Villa-Pulang.png');
-//   $('.page-id-972 .navbar-brand img').attr('src', 'https://pulangbali.com/wp-content/uploads/2024/04/Main-Logo-Villa-Pulang.png');
-// });
+$(document).ready(function() {
+  $('.page-id-34 .navbar-brand img').attr('src', 'https://pulangbali.com/wp-content/uploads/2024/04/Main-Logo-Villa-Pulang.png');
+  $('.page-id-337 .navbar-brand img').attr('src', 'https://pulangbali.com/wp-content/uploads/2024/04/Main-Logo-Villa-Pulang.png');
+});
 
 function call(id) {
   const items = Array.from(document.getElementsByClassName("filter"));
