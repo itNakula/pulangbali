@@ -184,8 +184,8 @@ get_header();
     <section class="bg-ig pt-100 pb-100">
         <div class="container mb-5" data-aos="fade-up">
             <h2 class="text-blue mb-4">Our Instagram</h2>
-            <p>Reach out our Instagram Account @pulangbali!</p>
-            <a href="https://www.instagram.com/pulangbali/" class="btn btn-outline-red rounded-0">Follow Us</a>
+            <p>Reach out our Instagram Account @pulangvillas!</p>
+            <a href="https://www.instagram.com/pulangvillas/" class="btn btn-outline-red rounded-0">Follow Us</a>
         </div>
         <div class="container-fluid p-0" data-aos="fade-up">
 			<?php echo do_shortcode('[instagram-feed feed=1]'); ?>   

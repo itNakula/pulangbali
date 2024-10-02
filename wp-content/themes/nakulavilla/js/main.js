@@ -119,3 +119,13 @@ var myModal = new bootstrap.Modal(
 document.onreadystatechange = function () {
   myModal.show();
 };
+
+function scrollCostum(id){
+  var pos = jQuery(id).position();
+  var header = jQuery('#hight-top').height()
+    $('html, body').animate({
+      scrollTop: (pos.top - header)
+    }, 500);
+  
+    console.log(header)
+  }
