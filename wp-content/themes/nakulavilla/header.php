@@ -94,17 +94,17 @@
 	<header class="submenu-stay link-stay">
 		<ul class="nav justify-content-center">
 			<li class="nav-item">
-              <a class="nav-link" href="/stay/#the-villa">The Villa</a>
+              <a class="nav-link" href="/room/pulang-villas-2br/">Pulang Villa 2BR</a>
           </li>
           <li class="nav-item">
-              <a class="nav-link" href="/stay/#quick-facts">Quick Facts</a>
+              <a class="nav-link" href="/room/pulang-villas-3br/">Pulang Villa 3BR</a>
           </li>
-          <li class="nav-item">
+          <!-- <li class="nav-item">
               <a class="nav-link" href="/stay/#rates">Rates & Availability</a>
           </li> 
           <li class="nav-item">
               <a class="nav-link" href="/stay/#reviews">Reviews</a>
-          </li>   
+          </li>    -->
 		</ul>
 	</header>
 </div>
