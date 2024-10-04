@@ -68,7 +68,7 @@ get_header('stay');
         <h2 class="text-blue text-center mb-40">Rates &amp; Availability</h2>
         <div class="col-md-12">
         <div class="ibe" data-region="apac" data-channelcode="PulangVillasPererenanbyNakulaDIRECT" data-widget="property_grid" style="height: 350px"></div>
-        //<a class="btn btn-outline-red rounded-0 d-none d-lg-inline-block w-25 mx-auto m-5" href="https://app-apac.thebookingbutton.com/properties/PulangVillasPererenanbyNakulaDIRECT">Book Now</a>
+        <!-- <a class="btn btn-outline-red rounded-0 d-none d-lg-inline-block w-25 mx-auto m-5" href="https://app-apac.thebookingbutton.com/properties/PulangVillasPererenanbyNakulaDIRECT">Book Now</a> -->
          </div>
         <div class="col-md-12">
           <hr class="style-eight mt-60">
