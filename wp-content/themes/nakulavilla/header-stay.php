@@ -35,11 +35,11 @@
 				<?php if( get_field('logo_1', 'option') ): ?>
 					<img src="<?php the_field('logo_1', 'option'); ?>" alt="logo nakula villas" height="38" />
 				<?php else: ?>
-					<h4>Puri Tempo Doeloe</h4>
+					<h4>Villa Pulang Bali</h4>
 				<?php endif; ?>
 			</a>
 
-			<a class="d-lg-none nav-link btn btn-outline-light rounded-0 fbmob" target="_blank" href="https://redirect.fastbooking.com/DIRECTORY/dispoprice.phtml?showPromotions=1&Hotelnames=<?php the_field('book_now', 'option'); ?>&Clusternames=ASIAIDNAKULAHP">Book Now</a>
+			<a class="d-lg-none nav-link btn btn-outline-light rounded-0 fbmob" target="_blank" href="https://book-directonline.com/properties/PulangVillasPererenanbyNakulaDIRECT">Book Now</a>
 			
 
 			<!-- Navbar collapse -->
@@ -64,7 +64,7 @@
 				<!-- Navbar brand -->
 				<a class="navbar-brand d-none d-lg-flex mx-lg-auto mx-lg-auto col-lg-2 justify-content-lg-center" href="<?php echo esc_url( home_url( '/' ) ); ?>">
 					<?php if( get_field('logo_1', 'option') ): ?>
-						<img src="<?php the_field('logo_1', 'option'); ?>" alt="logo nakula villas" height="75">
+						<img src="<?php the_field('logo_1', 'option'); ?>" alt="logo nakula villas" height="50">
 					<?php else: ?>
 						<h1>Puri Tempo Doeloe</h1>
 					<?php endif; ?>
@@ -84,10 +84,6 @@
 					));
 				
 				?>
-                    
-                    <!--<ul class="navbar-nav"><li class="nav-item d-none d-lg-flex">
-                        <a class="nav-link" target="_blank" href="https://redirect.fastbooking.com/DIRECTORY/dispoprice.phtml?showPromotions=1&Hotelnames=<?php the_field('book_now', 'option'); ?>&Clusternames=ASIAIDNAKULAHP"><span class="btn btn-outline-light rounded-0">Book Now</span></a>
-                   </li></ul>-->
 			</div>
 		</div>
 	</nav>
