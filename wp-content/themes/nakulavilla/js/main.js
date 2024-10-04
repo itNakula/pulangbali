@@ -125,7 +125,7 @@ function scrollCostum(id){
   var header = jQuery('#hight-top').height()
     $('html, body').animate({
       scrollTop: (pos.top - header)
-    }, 500);
+    }, 800);
   
     console.log(header)
   }
