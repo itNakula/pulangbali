@@ -39,7 +39,7 @@
 				<?php endif; ?>
 			</a>
 
-			<a class="d-lg-none nav-link btn btn-outline-light rounded-0 fbmob" href="#">Book Now</a>
+			<a class="d-lg-none nav-link btn btn-outline-light rounded-0 fbmob" href="https://book-directonline.com/properties/PulangVillasPererenanbyNakulaDIRECT">Book Now</a>
 			
 
 			<!-- Navbar collapse -->
