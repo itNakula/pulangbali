@@ -13,13 +13,13 @@
 	<section class="bg-red py-4 text-white">
 		<div class="container">
 			<div class="row">
-				<div class="col-12 col-md-3 mb-3">
+				<div class="col-12 col-md-3">
 					<h3>Stay Connected</h3>
 				</div>
-				<div class="col-12 col-md-5 mb-3">
+				<div class="col-12 col-md-5">
 					<p class="mb-0">Subscribe to our newsletter to stay up to date with our latest news and promos.</p>
 				</div>
-				<div class="col-12 col-md-4 mb-3">
+				<div class="col-12 col-md-4">
 					<form action="https://nakula.us14.list-manage.com/subscribe/post?u=8b061b9f1fbaed47da7014a31&amp;id=8c48551105&amp;f_id=001db9e5f0" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate d-flex" target="_self">
 						<input type="email" placeholder="Your Email" value="" name="EMAIL" class="form-control form-control-light bg-transparent rounded-0 me-0 required email" id="mce-EMAIL" required>
 						<div hidden="true">

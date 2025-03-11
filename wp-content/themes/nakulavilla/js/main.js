@@ -55,6 +55,9 @@ $(document).ready(function () {
         "https://pulangbali.com/wp-content/uploads/2024/04/Main-Logo-Villa-Pulang.png"
       );
       $(".page-id-337 .navbar-brand img").attr("src","https://pulangbali.com/wp-content/uploads/2024/04/Main-Logo-Villa-Pulang.png");
+     $(".page-id-402 .navbar-brand img").attr("src","https://pulangbali.com/wp-content/uploads/2024/04/Main-Logo-Villa-Pulang.png");
+$(".page-id-407 .navbar-brand img").attr("src","https://pulangbali.com/wp-content/uploads/2024/04/Main-Logo-Villa-Pulang.png");
+$(".page-id-411 .navbar-brand img").attr("src","https://pulangbali.com/wp-content/uploads/2024/04/Main-Logo-Villa-Pulang.png");
     } else {
       //back to default
       $(".navbar-brand img").attr(
@@ -66,13 +69,19 @@ $(document).ready(function () {
         "https://pulangbali.com/wp-content/uploads/2024/04/Main-Logo-Villa-Pulang.png"
       );
       $(".page-id-337 .navbar-brand img").attr("src","https://pulangbali.com/wp-content/uploads/2024/04/Main-Logo-Villa-Pulang.png");
+$(".page-id-402 .navbar-brand img").attr("src","https://pulangbali.com/wp-content/uploads/2024/04/Main-Logo-Villa-Pulang.png");
+$(".page-id-407 .navbar-brand img").attr("src","https://pulangbali.com/wp-content/uploads/2024/04/Main-Logo-Villa-Pulang.png");
+$(".page-id-411 .navbar-brand img").attr("src","https://pulangbali.com/wp-content/uploads/2024/04/Main-Logo-Villa-Pulang.png");
     }
   });
 });
 
 $(document).ready(function() {
   $('.page-id-34 .navbar-brand img').attr('src', 'https://pulangbali.com/wp-content/uploads/2024/04/Main-Logo-Villa-Pulang.png');
-  $('.page-id-337 .navbar-brand img').attr('src', 'https://pulangbali.com/wp-content/uploads/2024/04/Main-Logo-Villa-Pulang.png');
+  $('.page-id-337 .navbar-brand img').attr('src', 'https://pulangbali.com/wp-content/uploads/2024/04/Main-Logo-Villa-Pulang.png1`');
+$('.page-id-402 .navbar-brand img').attr('src', 'https://pulangbali.com/wp-content/uploads/2024/04/Main-Logo-Villa-Pulang.png');
+$('.page-id-407 .navbar-brand img').attr('src', 'https://pulangbali.com/wp-content/uploads/2024/04/Main-Logo-Villa-Pulang.png');
+$('.page-id-411 .navbar-brand img').attr('src', 'https://pulangbali.com/wp-content/uploads/2024/04/Main-Logo-Villa-Pulang.png');
 });
 
 function call(id) {

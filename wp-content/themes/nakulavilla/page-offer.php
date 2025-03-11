@@ -25,48 +25,84 @@ get_header();
         </div>
     </section><!-- bg Home -->
 	
+<section class="mt-4 mb-4">
+    	
+    	<div class="container">
+			<div class="row text-center">
+			<div class="col-12 col-md-8 offset-md-2">
+				<h2 class="text-blue mt-4 mb-4">Special Offers &amp; Package at Pulang Bali Villa</h2>
+			</div>
+			</div>
+			<?php if( get_field('image_offer_1') ): ?> 
+        	<div class="row text-center mt-4 mb-4" data-aos="fade-up">			
+				<div class="col-md-7 order-lg-2 mb-4">    
+				<img src="<?php the_field('image_offer_1'); ?>" class="img-fluid w-100" alt="" />
+                </div>
+				<?php endif; ?>
+				<?php if( get_field('main_offer') ): ?>    	
+		        <div class="col-md-5 order-lg-1 my-auto text-start text-md-center">
+                   <?php the_field('main_offer'); ?>
+		        </div>				
+        	</div>    
+			<?php endif; ?>
+			<?php if( get_field('offer_multiple') ): ?>
+        	<div class="row">
+				<?php if( have_rows('offer_multiple') ): $i = 0; ?>
+        		    <?php while ( have_rows('offer_multiple') ): the_row();					
+					$image = get_sub_field('image_offer');					
+					?>       				    
+            			<div class="col-md-6 mb-4" data-aos="fade-up">           			    
+                            <img src="<?php echo $image['url']; ?>" class="img-fluid mb-3 w-100" alt="<?php echo $image['alt']; ?>" />
+            			    <?php the_sub_field('text_offer'); ?>
+            		    </div>
+        			<?php $i++; endwhile; ?>
+				<?php endif; ?>
+        	</div>				
+			<?php endif; ?>
+    	</div>
+    </section>
 	
-	<section class="mt-60">
+<!-- 	<section class="mt-60">
     	
     	<div class="container">
 		<hr class="style-eight">
             <h2 class="text-blue text-center"><?php //the_title(); ?></h2>
-			<?php if( get_field('image_offer_1') ): ?> 
+			<?php //if( get_field('image_offer_1') ): ?> 
         	<div class="row text-center mt-60" data-aos="fade-up">
             	
 				
 				<div class="col-md-7 order-lg-2 mb-4">    
-				<img src="<?php the_field('image_offer_1'); ?>" class="img-fluid" alt="" />
+				<img src="<?php //the_field('image_offer_1'); ?>" class="img-fluid" alt="" />
                 </div>
-				<?php endif; ?>
-				<?php if( get_field('main_offer') ): ?>    	
+				<?php //endif; ?>
+				<?php //if( get_field('main_offer') ): ?>    	
 		        <div class="col-md-5 order-lg-1 d-flex align-content-center justify-content-center flex-wrap border-top border-bottom p-4 text-center">
-                   <?php the_field('main_offer'); ?>
+                   <?php //the_field('main_offer'); ?>
 		        </div>
 				
         	</div>    
-			<?php endif; ?>
-			<?php if( get_field('offer_multiple') ): ?>
+			<?php //endif; ?>
+			<?php //if( get_field('offer_multiple') ): ?>
         	<div class="row mt-60 mb-60">
-				<?php if( have_rows('offer_multiple') ): $i = 0; ?>
-        		    <?php while ( have_rows('offer_multiple') ): the_row();
+				<?php //if( have_rows('offer_multiple') ): $i = 0; ?>
+        		    <?php //while ( have_rows('offer_multiple') ): the_row();
 					
-					$image = get_sub_field('image_offer');
+					//$image = get_sub_field('image_offer');
 					
 					?>
         				    
             			<div class="col-md-6 mb-4" data-aos="fade-up">
             			    
-                            <img src="<?php echo $image['url']; ?>" class="img-fluid mb-3" alt="<?php echo $image['alt']; ?>" />
-            			    <?php the_sub_field('text_offer'); ?>
+                            <img src="<?php //echo $image['url']; ?>" class="img-fluid mb-3" alt="<?php //echo $image['alt']; ?>" />
+            			    <?php //the_sub_field('text_offer'); ?>
             		    </div>
-        			<?php $i++; endwhile; ?>
-				<?php endif; ?>
+        			<?php //$i++; endwhile; ?>
+				<?php //endif; ?>
         	</div>	
 			
-			<?php endif; ?>
+			<?php //endif; ?>
     	</div>
-    </section>
+    </section> -->
 
 <?php
 get_footer();
