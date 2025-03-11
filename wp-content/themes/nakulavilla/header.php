@@ -100,16 +100,16 @@
               <a class="nav-link" href="/room/pulang-villas-3br/">Pulang Villa 3BR</a>
           </li> -->
 		  <li class="nav-item">
-			  <a class="nav-link" href="/stay/#the-villa">The Property</a>
+			  <a class="nav-link" href="/room/pulang-villas-2br/#the-villa">The Property</a>
 		  </li> 
 		  <li class="nav-item">
-			  <a class="nav-link" href="/stay/#quick-facts">Quick Facts</a>
+			  <a class="nav-link" href="/room/pulang-villas-2br/#quick-facts">Quick Facts</a>
 		  </li> 
 		  <li class="nav-item">
-			  <a class="nav-link" href="/stay/#rates">Rates & Availability</a>
+			  <a class="nav-link" href="/room/pulang-villas-2br/#rates">Rates & Availability</a>
 		  </li> 
           <li class="nav-item">
-              <a class="nav-link" href="/stay/#reviews">Reviews</a>
+              <a class="nav-link" href="/room/pulang-villas-2br/#reviews">Reviews</a>
           </li>
 		</ul>
 	</header>
