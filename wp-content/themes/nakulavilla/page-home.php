@@ -4,19 +4,21 @@
 get_header();
 ?>
     <!-- Modal -->
-    <!-- <div class="modal fade" id="staticBackdrop" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal fade" id="staticBackdrop" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered modal-fullscreen-sm-dow">
             <div class="modal-content bg-transparent border border-0">
                 <div class="modal-body" style="padding: 0px;">
                     <button type="button" class="btn-close bg-white position-absolute top-0 end-0" data-bs-dismiss="modal" aria-label="Close"></button>
-                    <img src="<?php //echo get_template_directory_uri(); ?>/img/popup-unlock-exclusive-perks.jpg" alt="Free airport transport" class="img-fluid" />
+                    <a href="https://book-directonline.com/properties/PulangVillasPererenanbyNakulaDIRECT">
+                    <img src="<?php echo get_template_directory_uri(); ?>/img/Pulang-Villas-Offer-april2025.jpg" alt="Free airport transport" class="img-fluid" />
+                    </a>
                     <div class="position-absolute bottom-0 start-50 translate-middle-x p-4">
-                    <a class="btn btn-light" href="/stay/#rates">Book Now</a>
+                    <!-- <a class="btn btn-light" href="https://book-directonline.com/properties/PulangVillasPererenanbyNakulaDIRECT">Book Now</a> -->
                     </div>
                 </div>
             </div>
         </div>
-    </div> -->
+    </div>
 
     <section class="bg-home" data-jarallax="" data-speed="0.2">
         <div class="jumbotron d-flex flex-column min-vh-100 bg-home-gradient text-white">
