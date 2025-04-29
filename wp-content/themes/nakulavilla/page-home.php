@@ -166,13 +166,13 @@ get_header();
                                 <p>Indulge in our Chef's exclusive complimentary daily breakfast, crafted just for you.</p>
                             </div>
                         </div>
-                        <div class="col d-flex align-items-start mb-3" data-aos="fade-up">
+                        <!--<div class="col d-flex align-items-start mb-3" data-aos="fade-up">
                             <i class="ic-plane flex-shrink-0 me-3"></i>
                             <div>
                             <h4>Complimentary Airport Transfer*</h4>
                             <p>Experience a hassle-free stay with complimentary airport transfer service *t&amp;c applied</p>
                             </div>
-                        </div>
+                        </div>-->
                         
                     </div>
                 </div>
