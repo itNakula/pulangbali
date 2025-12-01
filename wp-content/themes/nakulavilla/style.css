@@ -34,6 +34,14 @@ body {
     line-height: 160% ;
 }
 
+.page-id-487 .fixed-bottom, .page-id-489 .fixed-bottom.bg-white{
+ display: none;
+}
+
+.container.desc-hero p {
+    max-width: 60%;
+}
+
 .btn-black{  
 --bs-btn-bg: #231f20;     
   --bs-btn-color: #ffffff;
@@ -1040,3 +1048,533 @@ select option {
 @media all and (device-width: 1180px) and (device-height: 820px) and (orientation:landscape) {
   .bg-acti-1{width: 28rem;padding: 8.5rem 7rem 5.5rem 3rem;}
 }
+
+/*START NEW LAYOUT HOME*/
+.row.h-section {
+    margin-bottom: 14px;
+}
+
+.item-offers {
+    text-align: center;
+    width: 28%;
+}
+
+.item-offer-thumb {
+    height: 369px;
+    background-size: cover;
+}
+
+.item-offer-detail {
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+    margin-right: 20px;
+}
+
+.item-offer-name {
+    position: absolute;
+    bottom: 0;
+    width:100%;
+    padding: 10px 0;
+	background: #1d353b;
+    background: -webkit-linear-gradient(180deg, rgba(29, 53, 59, 0) 0%, rgba(0, 0, 0, 0.56) 100%, rgba(0, 0, 0, 1) 50%);
+    background: -moz-linear-gradient(180deg, rgba(29, 53, 59, 0) 0%, rgba(0, 0, 0, 0.56) 100%, rgba(0, 0, 0, 1) 50%);
+    background: linear-gradient(180deg, rgba(29, 53, 59, 0) 0%, rgba(0, 0, 0, 0.56) 100%, rgba(0, 0, 0, 1) 50%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#1D353B", endColorstr="#000000", GradientType=0);
+}
+
+
+.item-offer-name h3 {
+    color: #FFF;
+    font-size: 1.6rem;
+    text-decoration:none;
+    text-align: center;
+}
+
+.section-offers {
+    padding: 80px 0 40px;
+}
+
+.section-rooms {
+    padding: 40px 0 0px 0;
+}
+
+
+.item-rooms {
+    text-align: center;
+    width: 33%;
+    margin: 0 10px;
+    padding-bottom: 20px;
+}
+
+.item-room-image {
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    position: relative;
+    /* background: #1d353b; */
+    /* background: -webkit-linear-gradient(180deg, rgba(29, 53, 59, 0) 0%, rgba(0, 0, 0, 0.56) 100%, rgba(0, 0, 0, 1) 50%); */
+    background: -moz-linear-gradient(180deg, rgba(29, 53, 59, 0) 0%, rgba(0, 0, 0, 0.56) 100%, rgba(0, 0, 0, 1) 50%);
+    /* background: linear-gradient(180deg, rgba(29, 53, 59, 0) 0%, rgba(0, 0, 0, 0.56) 100%, rgba(0, 0, 0, 1) 50%); */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#1D353B", endColorstr="#000000", GradientType=0);
+}
+
+.item-room-image:after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    height: 30px;
+    background: linear-gradient(180deg, rgba(29, 53, 59, 0) 0%, rgba(0, 0, 0, 0.56) 100%, rgba(0, 0, 0, 1) 50%);
+    filter: ;
+    display: block;
+    left: 0;
+    right: 0px;
+}
+
+.price-room {
+    position: absolute;
+    bottom: 5%;
+    right: 8%;
+    color: #FFF;
+    font-weight: 400;
+    z-index: 1;
+    font-size: 1.1rem;
+}
+
+.item-room-thumb {
+    height: 250px;
+}
+
+.item-room-detail {
+    border-radius: 20px;
+    border: 1px solid rgb(238, 238, 238);
+    box-shadow: rgba(0, 0, 0, 0.08) 0px 4px 20px 0px;
+    overflow: hidden;
+}
+
+.item-room-name_detail h3 {
+    font-size: 1.25rem;
+    padding: 0 8%;
+    text-align: left;
+    margin-bottom: 15px;
+}
+
+.item-rooms a {
+    text-decoration: none;
+    color: #000;
+}
+
+
+.quick-feature:after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+.quick-feature .item-room-name_detail {
+    float: left;
+}
+
+.quick-feature {
+    padding: 0px 0 0 8%;
+}
+
+.quick-feature .item-room-name_detail{
+    margin: 0 20px 5px 0;
+}
+
+
+.item-room-name {
+    padding: 20px 0;
+}
+
+.d-flex.quick-feature {
+    padding: 0 9%;
+}
+
+section.section-room {
+    margin: 80px 0;
+}
+
+.item-room-name a {
+    color: #000;
+    text-decoration: none;
+}
+
+.col-link {
+    text-align: right;
+    padding-top: 13px;
+}
+
+.col-link a {
+    color: #000;
+    text-decoration: none;
+}
+
+.col.col-link a svg.bi {
+    width: 16px;
+    margin-left: 5px;
+}
+
+.flickity-prev-next-button .flickity-button-icon {
+    width: 30%;
+    height: 30%;
+    top: 35%;
+    left: 34%;
+}
+
+.row-facilities {
+    margin: 40px 0 0 0;
+}
+
+.col-facilities:first-child {
+    padding-left: 0px;
+}
+
+.row-features-amenities {
+    margin-top: 20px;
+}
+
+.row-features-amenities h4 {
+    margin-bottom: 20px;
+}
+
+.item-features-amenities {
+    margin-right: 25px;
+	float: left;
+}
+
+.icon-features-amenities {
+    margin-right: 5px;
+}
+
+.header-why-book-us {
+    padding: 3rem 0 2rem 0;
+}
+
+.col-learn-more {
+    padding: 0 0 4rem;
+    text-align: center;
+}
+
+.link-learn-more {
+    color: #FFF;
+    text-decoration: none;
+    padding: 10px 30px;
+    border: solid 1px #FFFFFF;
+    display: block;
+    width: 160px;
+    margin: 0 auto;
+}
+
+.detail-why-book-us .col {
+    padding-right: 1rem;
+}
+
+.header-why-book-us {
+    padding: 3.5rem 0 1rem 0;
+}
+
+.col-learn-more {
+    padding: 0 0 4rem;
+    text-align: center;
+}
+
+.link-learn-more {
+    color: #FFF;
+    text-decoration: none;
+    padding: 10px 30px;
+    border: solid 1px #FFFFFF;
+    display: block;
+    width: 160px;
+    margin: 0 auto;
+}
+
+.detail-why-book-us .col {
+    padding-right: 1rem;
+}
+
+.link-learn-more:hover {
+    color: #FFF;
+}
+
+.col-facilities h5 a {
+    color: #000;
+    text-decoration: none;
+}
+
+
+.underline-smooth {
+  text-decoration: none; /* Remove default underline */
+  background-image: linear-gradient(currentColor 0%, currentColor 100%);
+  background-repeat: no-repeat;
+  background-size: 0% 1px; /* Initial width is 0, adjust height as needed */
+  background-position: 0 100%; /* Position at the bottom */
+  transition: background-size 0.3s ease-in-out; /* Smooth transition */
+}
+
+.underline-smooth:hover {
+  background-size: 100% 1px; /* Expand width on hover */
+}
+
+.image-hero:after {
+    content: "";
+    position: absolute;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.84) 0%, rgba(0, 0, 0, 0) 45.62%, rgba(0, 0, 0, 0.84) 100%);
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    display: block;
+}
+
+.image-hero {
+    position: relative;
+    overflow: hidden;
+}
+
+.image-hero img {
+	width: 100%; /* Make the image try to take the full width */
+    height: 100%; /* Make the image try to take the full height */
+    object-fit: cover; /* This makes the image fill the container */
+}
+
+
+.desc-hero {
+    position: absolute;
+    z-index: 1;
+    color: #FFF;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.hero-offer {
+    position: relative;
+}
+
+
+.container.filter .form {
+    z-index: 1;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #FFF;
+    width: 100%;
+    /* width: calc(90% - 80px); */
+    padding: 40px;
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 0.25rem 1.25rem 0px;
+    border-radius: 16px;
+}
+
+.container.filter {
+    position: relative;
+    font-family: 'Playfair Display', serif;
+}
+
+.col-filter label {
+    display: block;
+    font-size: 1.08rem;
+}
+
+section.detail-offer {
+    margin-top: 120px;
+}
+
+.detail-offer a {
+    color: #000;
+    font-weight: 600;
+}
+
+.detail-offer h2 {
+    font-size: 1.5rem;
+}
+
+.btn-link {
+    border: none;
+    background-color: #FFF;
+    padding: 0;
+    font-weight: 600;
+}
+
+.btn-link:hover {
+    color: #000;
+}
+
+.card.card-offer {
+    padding-left: 0;
+    padding-right: 0;
+    box-sizing: border-box;
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 0.25rem 1.25rem 0px;
+    border: solid 1px #00000000;
+    border-radius: 20px;
+    overflow: hidden;
+    margin-bottom: 44px !important;
+}
+
+.card.card-offer:last-child{
+	margin-bottom:0px !important;
+}
+.card-offer .card-col-image img
+{
+    border-radius: 10px 0 0 10px;
+}
+
+.row.title-more-offers {
+    margin: 60px 0;
+}
+
+section.other-offers {
+    margin-bottom: 80px;
+}
+.row.title-more-offers h2 {
+    padding: 0px;
+    text-align: center;
+}
+
+.card-col-image {
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.page-template-page-offer footer.bg-white,
+.page-template-page-offer footer.fixed-bottom{
+    display: none;
+}
+
+.container.filter .form input, .container.filter .form select {
+    border: none;
+    width: 70%;
+    border-bottom: solid 1px #949494;
+    margin-top: 8px;
+    padding-bottom: 5px;
+}
+
+.container.filter .form .btn {
+    width: 100%;
+    padding: 16px;
+}
+
+.card-offer .card-body {
+    padding: 0 30px;
+}
+@media only screen and (max-width: 600px) {
+    .item-offers{
+        width: 100%;
+        margin: 0;
+    }
+    .item-rooms{
+        width: 100%;
+        margin: 0;
+    }
+
+    .item-offer-detail {
+        margin-right: 0px;
+    }
+
+    .row.h-section h2 {
+        font-size: 1.25rem;
+    }
+    
+    .col-link {
+        padding-top: 0px;
+    }
+    
+    .row.h-section {
+        margin-bottom: 5px;
+    }
+    
+    .section-offers {
+        padding: 0px 0px;
+    }
+    
+    .section-rooms {
+        padding-bottom: 0px;
+    }
+
+    .col-facilities {
+        padding: 0px;
+    }
+
+    .item-why-book-us {
+        padding-right: 2rem !important;
+        padding-left: 2.5rem;
+    }
+
+    .item-features-amenities {
+        margin-bottom: 10px;
+    }
+
+    .container.filter .form {
+        width: 90%;
+        margin: 0px;
+        padding: 30px 20px;
+    }
+
+
+    .container.desc-hero {
+        padding: 0 30px;
+    }
+
+	.container.filter .form input, .container.filter .form select {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .container.filter .form .btn {
+        margin-top: 10px;
+    }
+
+    section.detail-offer {
+        margin-top: 150px;
+        padding: 0 10px;
+    }
+
+    .card.card-offer {
+        margin: 0 20px;
+        width: calc(100% - 40px);
+    }
+
+    .card-offer .card-body {
+        padding: 25px 20px;
+    }
+
+    .card-col-image {
+        height: 300px;
+    }
+
+    .row.title-more-offers {
+        margin: 30px 0 40px;
+    }
+
+    section.other-offers {
+        margin-bottom: 60px;
+    }
+
+    .detail-offer .col-12.col-sm-4 {
+        margin-top: 20px;
+    }
+
+    .detail-offer .btn-link, .detail-offer a {
+        border-bottom: solid 1px #000;
+        background-size: 0;
+    }
+
+    .image-hero {
+        height: 470px;
+        max-width: 100%;
+        overflow: hidden;
+    }
+
+    .container.desc-hero p {
+    	max-width: 100%;
+    }
+
+    .container.desc-hero h1 {
+        font-size: 1.75rem;
+    }
+}
+/*END NEW LAYOUT HOME*/

@@ -1,9 +1,9 @@
 === Custom Login Page Customizer by Colorlib ===
 Contributors: silkalns
-Tags: customize login, login, custom login, customize wordpress login, wordpress login, customizer, custom admin, login logo, logo, login customizer, custom wp-login
+Tags: customize login, login, custom login, customize wordpress login, wordpress login
 Requires at least: 4.7
-Tested up to: 6.5
-Stable tag: 1.3.2
+Tested up to: 6.8
+Stable tag: 1.3.4
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -92,6 +92,13 @@ If you enjoy using Colorlib Login Customizer for WordPress please leave a [posit
 5. A new sub menu item `Colorlib Login Customizer` will appear in your main Settings menu.
 
 == Changelog ==
+
+= 1.3.4 - 05.06.2025 =
+Fixed: Textdomain fix for wordpress 6.8+ ( [#179](https://github.com/ColorlibHQ/colorlib-login-customizer/issues/179) )
+
+= 1.3.3 - 03.02.2025 =
+Fixed: Textdomain fix for wordpress 6.7+ ( [#179](https://github.com/ColorlibHQ/colorlib-login-customizer/issues/179) )
+Fixed: Deprecated: Hook login_headertitle ( [#178](https://github.com/ColorlibHQ/colorlib-login-customizer/issues/178) )
 
 = 1.3.2 - 27.03.2024 =
 Fixed: Php 8 deprecations ( [#169](https://github.com/ColorlibHQ/colorlib-login-customizer/issues/169) )
