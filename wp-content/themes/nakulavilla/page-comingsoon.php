@@ -5,7 +5,7 @@
 
 get_header('cs');
 ?>
-	<section class="bg-home" data-jarallax="" data-speed="0.2">
+   <section class="bg-experience" data-jarallax="" data-speed="0.2">
         <div class="jumbotron d-flex flex-column min-vh-100 bg-home-gradient text-white">
             <div class="contaniner p-0 overflow-hidden">
                 <div class="row">

@@ -11,7 +11,7 @@
 
 ?>
 	
-
+<!--
     <section class="pt-5 mb-8">
 		<div class="container">
 			<div class="row text-center text-md-start">
@@ -30,11 +30,8 @@
 				</div>
 			</div>
 		</div>
-    </section><!-- section info 2-->
-    
-    
-	
-	
+    </section> -->
+<!-- section info 2-->
 
 <?php wp_footer(); ?>
 <script>
